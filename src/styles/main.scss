@@ -1,12 +1,15 @@
 @use 'hero';
 @use 'components/infos_bar';
+@use 'components/buttons';
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto,sans-serif;
+  list-style: none;
 }
+
 .container{
     max-width: 960px;
     width: 100%;
@@ -20,5 +23,4 @@
 @media (max-width:1024px){
     max-width: 90%;
  }
- 
 }
